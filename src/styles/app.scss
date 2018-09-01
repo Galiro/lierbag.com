@@ -1,0 +1,37 @@
+@import url("https://use.typekit.net/otn8uwv.css");
+
+body {
+  color: white;
+  background: black url('../images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.header {
+  text-align: center;
+  color: white;
+  font-family: "linotype-didot", serif;
+  padding-top: 2.5rem;
+
+  h1 {
+    font-size: 35px;
+  }
+
+  p {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 10px;
+    padding-bottom: 3rem;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
